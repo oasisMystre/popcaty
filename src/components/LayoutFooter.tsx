@@ -7,7 +7,7 @@ export default function LayoutFooter() {
           <p className="text-xl font-extrabold">1B+</p>
         </div>
         <div className="flex items-center p-4 bg-gradient-to-r from-primary-dark/50 to-primary-light/50 border border-primary-dark rounded-md">
-          <h1 className="flex-1 text-xl">Burned supply</h1>
+          <h1 className="flex-1 text-xl">Liquidity Token Burnt</h1>
           <p className="text-xl font-extrabold">1M+</p>
         </div>
         <div className="flex items-center p-4 bg-gradient-to-r from-primary-dark/50 to-primary-light/50 border border-primary-dark rounded-md">
