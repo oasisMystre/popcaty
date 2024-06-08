@@ -3,16 +3,16 @@ import Image from "next/image";
 
 export default function LayoutHeader() {
   return (
-    <header className="flex flex-col space-y-4 p-4">
-      <div className="self-center">
+    <header className="flex items-center p-4">
+      <div className="flex-1">
         <Image
           alt="PopCaty"
           src="/bonk.png"
-          width={64}
-          height={64}
+          width={56}
+          height={56}
         />
       </div>
-      <div className="self-end flex space-x-4">
+      <div className="flex space-x-4">
         <button className="btn">Buy PopCaty</button>
         <div className="flex space-x-2">
           {socials.map((social, index) => (
