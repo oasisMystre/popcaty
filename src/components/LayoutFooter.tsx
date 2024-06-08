@@ -3,8 +3,8 @@ import { MdArrowUpward } from "react-icons/md";
 
 export default function LayoutFooter() {
   return (
-    <footer className="p-2 md:p-16 flex flex-col space-y-8">
-      <div className="p-2 md:p-16 flex flex-col space-y-8">
+    <footer className="p-8 flex flex-col space-y-8 md:w-[32em] md:self-center md:p-16">
+      <div className="flex-col space-y-8 md:w-[36em] md:self-center ">
         <div className="flex flex-col space-y-4">
           <div className="flex items-center p-4 bg-gradient-to-r from-primary-dark/50 to-primary-light/50 border border-primary-dark rounded-md">
             <h1 className="flex-1 text-xl">Total Supply</h1>
