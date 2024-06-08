@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function LayoutHeader() {
   return (
-    <header className="flex flex-col space-y-4">
+    <header className="flex flex-col space-y-4 p-4">
       <div className="self-center">
         <Image
           alt="PopCaty"
