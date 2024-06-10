@@ -20,6 +20,7 @@ export default function LayoutFooter() {
           </div>
         </div>
       </div>
+     <div className="self-center flex flex-col space-y-4">
       <div className="flex space-x-1 bg-black text-white text-xs text-center rounded-full px-2 py-1 items-center justify-center">
         <Image
           src="/dexscreener.png"
@@ -30,6 +31,10 @@ export default function LayoutFooter() {
         <p className="truncate">0x22dA3dCbCEC36947De7C7aD3d3CA138E6d37f27d</p>
         <MdArrowUpward className="rotate-45 text-lg" />
       </div>
+      <div className="self-center">
+        <p className="text-center">ca: 0x22dA3dCbCEC36947De7C7aD3d3CA138E6d37f27d</p>
+      </div>
+     </div>
     </footer>
   );
 }
